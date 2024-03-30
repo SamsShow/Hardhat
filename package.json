@@ -1,0 +1,15 @@
+{
+  "name": "hardhat",
+  "version": "1.0.0",
+  "description": "Simple Storage Contract Using HardHat framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saksham Tyagi",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.2"
+  }
+}
