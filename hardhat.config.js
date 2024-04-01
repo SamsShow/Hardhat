@@ -1,6 +1,7 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomicfoundation/hardhat-verify");
-require('dotenv').config();
+require("dotenv").config();
+require("./tasks/block-number");
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
@@ -8,11 +9,11 @@ module.exports = {
   etherscan: {
     // Your API key for Etherscan
     // Obtain one at https://etherscan.io/
-    apiKey: process.env.ETHERSCAN_API_KEY
+    apiKey: process.env.ETHERSCAN_API_KEY,
   },
   sourcify: {
     // Disabled by default
     // Doesn't need an API key
-    enabled: true
-  }
+    enabled: true,
+  },
 };
