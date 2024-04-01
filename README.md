@@ -9,3 +9,7 @@ Simple Storage Contract Using HardHat framework
 `npx hardhat init`
 
 `npx hardhat compile`
+
+`npx hardhat node` - Hardhat Network
+
+`npx hardhat console --network localhost` - Hardhat Console

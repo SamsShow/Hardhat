@@ -5,7 +5,15 @@ require("./tasks/block-number");
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
+  defaultNetwork: "hardhat",
+  localhost: {
+    url: "http://127.0.0.1:8545/",
+    // account: Already Placed by hardhat
+    chainId:31337,
+  },
+
   solidity: "0.8.24",
+
   etherscan: {
     // Your API key for Etherscan
     // Obtain one at https://etherscan.io/
