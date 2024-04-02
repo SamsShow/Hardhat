@@ -13,3 +13,5 @@ Simple Storage Contract Using HardHat framework
 `npx hardhat node` - Hardhat Network
 
 `npx hardhat console --network localhost` - Hardhat Console
+
+`npx hardhat tests` - Run Tests
