@@ -2,6 +2,7 @@ require("@nomicfoundation/hardhat-toolbox");
 require("@nomicfoundation/hardhat-verify");
 require("dotenv").config();
 require("./tasks/block-number");
+require( "hardhat-gas-reporter")
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
@@ -24,4 +25,7 @@ module.exports = {
     // Doesn't need an API key
     enabled: true,
   },
+  gasReporter: {
+    enabled: true,
+  }
 };
